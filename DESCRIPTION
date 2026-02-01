@@ -1,0 +1,21 @@
+Package: CloudFlux
+Title: Point Cloud Change Detection and Mapping
+Version: 0.1.0.0000
+Authors@R: 
+    person("Christopher", "Scarpone", , "chris.scarpone@gmail.com", role = c("aut", "cre"))
+Description: A Lidar Tool that is designed to help foresters, scientists, citizen scientists, and anyone who is curious enough to explore. The tool combines most pre-processing, processing, and post-processing procedures for any point cloud, raster, and shapefile data in the click of a few buttons.
+License: MIT + file LICENSE
+Imports: 
+    config,
+    golem,
+    shiny
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+URL: https://github.com/cscarpon/cloudflux
+BugReports: https://github.com/cscarpon/cloudflux/issues
+Suggests: 
+    spelling,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Language: en-US

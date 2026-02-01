@@ -1,0 +1,8 @@
+default:
+  golem_name: CloudFlux
+  golem_version: 0.1.0.0000
+  app_prod: no
+production:
+  app_prod: yes
+dev:
+  golem_wd: !expr golem::pkg_path()
