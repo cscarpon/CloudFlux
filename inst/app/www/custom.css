@@ -1,0 +1,92 @@
+/* ===================== GLOBAL LAYOUT ===================== */
+html, body {
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+/* ===================== INTRODUCTION PAGE ===================== */
+.intro-page {
+    padding: 20px;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+/* ===================== SIDEBAR ===================== */
+.sidebar-content {
+    padding: 0.5vw;
+    padding-top: 2vh;
+    height: 100vh;
+    width: 30%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    background-color: #f9f9f9;
+}
+
+/* ===================== INPUT CONTAINER (One Element Per Line) ===================== */
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 3vh;
+}
+
+.input-container .shiny-input-container,
+.input-container .btn {
+    width: 100%;               /* Full-width inputs and buttons */
+}
+
+/* ===================== BUTTON CONTAINER ===================== */
+.button-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 0.5vw;
+}
+
+.button-container .btn {
+    width: 100%;
+}
+.button-confirm {
+  display: flex;
+  justify-content: left;
+  width: 100%;
+  margin-top: 0.5vh;
+}
+
+/* ===================== MAIN PANEL ===================== */
+.main-panel {
+    margin-left: 30%;  /* Matches sidebar width */
+    width: 100%;        /* Remaining content space */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+/* ===================== MAIN CONTENT (Leaflet/Plots) ===================== */
+.main-content {
+    flex-grow: 1;
+    height: 100%;
+    width: 100%;
+}
+/* ===================== CONSOLE OUTPUT ===================== */
+.console-container {
+    position: fixed;
+    bottom: 0;
+    left: 30%;
+    width: 100%;
+    height: 25vh;
+    background: #f8f9fa;
+    border-top: 2px solid #ccc;
+    box-sizing: border-box;
+    overflow-y: auto;
+    padding-top: 1vh;
+}
+
+#console_output {
+    height: 100%;
+    width: 100%;
+    background: #f8f9fa;
+    border: 1px solid #ccc;
+}
+

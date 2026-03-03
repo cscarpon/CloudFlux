@@ -1,3 +1,4 @@
 # CloudFlux (development version)
 
-* Initial CRAN submission.
+# CloudFlux 0.1.0.0000
+* Initial internal release for manuscript validation.
