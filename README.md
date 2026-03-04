@@ -53,7 +53,7 @@ CloudFlux::run_app()
 ```
 
 # About the Project
-This package is part of a research initiative at the University of Toronto, focused on making advanced LiDAR change detection accessible to ecologists, foresters, and land managers.
+This package is part of a research initiative at Toronto Metropilitan University, focused on making advanced LiDAR change detection accessible to ecologists, foresters, and land managers.
 
 Current Version: 0.1.0.0000
 
